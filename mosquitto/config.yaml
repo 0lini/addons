@@ -32,10 +32,11 @@ ports:
   8883/tcp: 8883
   8884/tcp: 8884
 schema:
+  anonymous: bool?
   logins:
     - username: str
       password: password
-      password_pre_hashed: "bool?"
+      password_pre_hashed: bool?
   require_certificate: bool
   certfile: str
   cafile: str?
