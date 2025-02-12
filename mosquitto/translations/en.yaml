@@ -14,7 +14,7 @@ configuration:
       Allows anonymous access without requiring authentication. When enabled,
       clients can connect without providing a username or password. This may
       pose a security risk, especially on unsecured networks. Use this option
-      only if you fully understand and accept the potential implications.
+      only if you understand and accept the potential implications.
   require_certificate:
     name: Require Client Certificate
     description: >-
